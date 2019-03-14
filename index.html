@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="myStyle.css">
+    <title>Phone directory</title>
+</head>
+<body>
+    <nav>
+        <h1>PHONE DIRECTORY</h1>
+    </nav>
+    <div class="add-section">
+        <br><a href="index.html" class="back" id="back"><code>BACK</code></a><br><br>
+        <form action="">
+            <label for="">Name</label><br>
+            <input type="text" id="name-input"><br><br>
+            <label for="">Phone</label><br>
+            <input type="text" id="phone-input">
+            <br><br>
+            <b>Subscriber to be added:</b>
+            <p class="name">
+                Name: 
+            </p>
+            <p class="phone">
+                Phone:
+            </p>
+            <button class="btn-add" id="add-entry">ADD</button>
+        </form>
+    </div>
+
+
+    <!-- ------------table------------ -->
+    <!-- <p class="hidden-input"></p> -->
+    <div class="table-container">
+        <a href="#" id="add"><button class="btn-add">ADD</button></a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- <tr>
+                    <td>Anubhav</td>
+                    <td>8947982734</td>
+                    <td><button class="btn-delete">Delete</button></td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="myJs.js"></script>
+</html>
